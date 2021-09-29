@@ -16,3 +16,11 @@ return 0; ///Q1: 書上有啊!!! 有寫比較好
 ///(3)換你做做看(作業) 10分鐘 (卡住了/問題)
 ///(4)成效追蹤
 ```
+
+#include <stdio.h>
+int main()
+{
+   int a, b;
+   scanf("%d%d", &a, &b );
+   printf("%d", a+b );
+   }
