@@ -73,3 +73,40 @@ int main()
 }
 
 ```
+```C
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a>0)printf("a是正數");
+    if(a<0)printf("a是負數");
+    if(a==0)printf("a是0");
+}
+```
+```C
+#include <stdio.h>
+int main ()
+{
+    if(10>0)printf("10>0成立\n");
+    if(10<0)printf("10<0成立\n");
+    if (-3)printf("-3是成立的嗎?\n");
+    if (-2)printf("-2是成立的嗎?\n");
+    if (-1)printf("-1是成立的嗎?\n");
+    if (0)printf("0是成立的嗎?\n");
+    if (1)printf("1是成立的嗎?\n");
+    if (2)printf("2是成立的嗎?\n");
+    if (3)printf("3是成立的嗎?\n");
+}
+```
+```C
+1	#include<stdio.h>
+2	int main()
+3	{
+4	    int n;
+5	    n=2;
+6	    if(n%2==0)printf("even");
+7	    else printf("odd");
+8	}
+```
+```C
